@@ -796,7 +796,7 @@ body {
   font-family: 'Raleway', sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/images/bg-mobile.png);
+  background-image: url(../images/bg-mobile.png);
 }
 
 .tooltip {
@@ -807,7 +807,7 @@ body {
   body {
     background-size: 100%;
     background-position: bottom;
-    background-image: url(/images/bg-desktop.png);
+    background-image: url(../images/bg-desktop.png);
   }
 
   .tooltip {
