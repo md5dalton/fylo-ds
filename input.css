@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --gradient-start: hsl(6, 100%, 80%);
+    --gradient-stop: hsl(335, 100%, 65%);
+}
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/bg-mobile.png);
+}
+.tooltip {
+    translate: -50% -50%;
+}
+
+@media (min-width: 992px) {
+    body {
+        background-size: 100%;
+        background-position: bottom;
+        background-image: url(/images/bg-desktop.png);
+    }
+    .tooltip {
+        translate: none;
+        left: initial;
+    }
+    .tooltip:after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 22px;
+        width: 22px;
+        background-color: white;
+        bottom: -22px;
+        right: 0;
+        clip-path: polygon(0 0%, 100% 100%, 100% 0);
+    }
+}
