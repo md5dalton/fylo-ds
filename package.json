@@ -4,7 +4,7 @@
   "description": "Fylo data storage component using tailwind",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./dist/main.css",
+    "build": "tailwindcss -i ./input.css -o ./dist/main.css --minify",
     "dev": "tailwindcss -i ./input.css -o ./dist/main.css --watch"
   },
   "author": "md5dalton",
