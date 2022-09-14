@@ -621,10 +621,6 @@ video {
   width: max-content;
 }
 
-.max-w-\[920px\] {
-  max-width: 920px;
-}
-
 .max-w-\[600px\] {
   max-width: 600px;
 }
@@ -840,12 +836,12 @@ body {
     right: 2.5rem;
   }
 
-  .lg\:max-w-\[350px\] {
-    max-width: 350px;
-  }
-
   .lg\:max-w-\[920px\] {
     max-width: 920px;
+  }
+
+  .lg\:max-w-\[350px\] {
+    max-width: 350px;
   }
 
   .lg\:flex-row {
