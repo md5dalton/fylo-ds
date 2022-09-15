@@ -1,9 +1,6 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    screens: {
-      'lg': '992px'
-    },
     extend: {
       colors: {
         paleBlue: "hsl(243, 100%, 93%)",
@@ -12,9 +9,6 @@ module.exports = {
         veryDarkBlue: "hsl(229, 57%, 11%)",
         gradientStart: "hsl(6, 100%, 80%)",
         gradientStop: "hsl(335, 100%, 65%)"
-      },
-      translate: {
-        center: "-50% 50%"
       }
     },
   },

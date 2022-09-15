@@ -20,7 +20,7 @@ body {
     translate: -50% -50%;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 640px) {
     body {
         background-size: 100%;
         background-position: bottom;
