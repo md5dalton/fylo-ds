@@ -22,7 +22,7 @@ body {
 
 @media (min-width: 640px) {
     body {
-        background-size: 100%;
+        background-size: 100vw 50vh;
         background-position: bottom;
         background-image: url(../images/bg-desktop.png);
     }
