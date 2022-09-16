@@ -12,6 +12,7 @@
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
@@ -41,6 +42,10 @@ Your users should be able to:
 ### What I learned
 
  - Getting started with tailwind CSS
+ - Clip path to create a triangle
+ ```css
+ clip-path: polygon(0 0%, 100% 100%, 100% 0);
+ ```
 
 ### Continued development
 
@@ -52,5 +57,8 @@ Your users should be able to:
 - Frontend Mentor - [@md5dalton](https://www.frontendmentor.io/profile/md5dalton)
 - Twitter - [@md5dalton](https://twitter.com/md5dalton)
 
+## Acknowledgments
+- Traversy Media From Youtube - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
+- Tailwind Crash Course | Project From Scratch - [Tailwind Crash Course](https://www.youtube.com/watch?v=dFgzHOX84xQ&t)
 
 **Have fun building!** 🚀
