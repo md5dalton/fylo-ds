@@ -30,7 +30,7 @@ Your users should be able to:
 ### Links
 
 - Repository URL: [Github](https://github.com/md5dalton/fylo-ds)
-- Live Site URL: [Vercel](https://md5dalton.github.io/fylo-ds/)
+- Live Site URL: [Github Pages](https://md5dalton.github.io/fylo-ds/)
 
 ## My process
 
